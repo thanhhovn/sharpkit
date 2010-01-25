@@ -1,0 +1,277 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+<head>
+    <!--DXMETADATA start type="MetaCharset" --><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"><!--DXMETADATA end-->
+    <meta content="history" name="save">
+    <meta name="GENERATOR" content="Innovasys Document! X (http://www.innovasys.com)">
+    <!--DXMETADATA start type="PageItemTitle" format="<title>%%PageItemTitle%% $$Members$$</title>" --><title>DialogOptions Class Members</title><!--DXMETADATA end-->
+    <link rel="stylesheet" type="text/css" href="stylesheets/dotnet2005.css">
+    <!--DXMETADATA start type="Literal" condition="helpversion:value=2" value="<link rel=""stylesheet"" type=""text/css"" href=""stylesheets/help2.css"">" --><!--DXMETADATA end -->
+    <script src="script/dotnet2005.js"></script>
+    <!--DXMETADATA start type="Scrap" name="_XML_ISLAND" --><xml>
+<MSHelp:Keyword Index="F" Term="SharpKit.jQuery.UI.DialogOptions" />
+<MSHelp:Attr Name="DevLang" Value="CSharp" />
+<MSHelp:Attr Name="DevLang" Value="VB" />
+<MSHelp:Attr Name="DevLang" Value="JScript" />
+<MSHelp:Attr Name="TopicType" Value="kbSyntax"/>
+<MSHelp:Attr Name="LinkGroup" Value="Help"/>
+<MSHelp:Attr Name="Locale" Value="kbEnglish"/>
+<MSHelp:Attr Name="HelpPriority" Value="1"/>
+</xml><!--DXMETADATA end -->
+    <!--DXMETADATA start type="Variable" name="BannerColor" format="<style type=text/css>div#pagetop,div#pagetop span,table#pagetoptable1 a,table#pagetoptable2 a {background-color: %%Variable%%; color: %%Variable:Name=BannerTextColor%%}</style>" blankformat="" --><!--DXMETADATA end -->
+</head>
+<body id="dxBody" topmargin="0">
+    <input type="hidden" id="userDataCache" class="userDataStyle" NAME="userDataCache">
+    </input>
+    <input type="hidden" id="hiddenScrollOffset" NAME="hiddenScrollOffset">
+    </input>
+    <img id="collapseImage" style="display:none; height:0; width:0;" src="dotnetimages/collapse.gif">
+    <img id="expandImage" style="display:none; height:0; width:0;" src="dotnetimages/expand.gif"/>
+    <img id="collapseAllImage" style="display:none; height:0; width:0;" src="dotnetimages/collapse.gif"/>
+    <img id="expandAllImage" style="display:none; height:0; width:0;" src="dotnetimages/expand.gif"/>
+    <img id="dropDownImage" style="display:none; height:0; width:0;" src="dotnetimages/drpdown.gif"/>
+    <img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="dotnetimages/drpdown_orange.gif"/>
+    <img id="copyImage" style="display:none; height:0; width:0;" src="dotnetimages/copycode.gif"/>
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" src="dotnetimages/copycodeHighlight.gif">
+    <div id="pagetop">
+        <!--DXMETADATA start type="DesignBanner" --><!--DXMETADATA end -->
+        <table width="100%" id="pagetoptable1">
+            <tr id="pagetoptable1row1">
+                <td align="left">
+                    <span id="projecttitle">
+                        <!--DXMETADATA start type="ProjectTitle" -->SharpKit.jQuery.UI.V1_7_2<!--DXMETADATA end-->
+                    </span>
+                </td>
+                <td align="right">
+                    <span id="feedbacklink">
+                        <!--DXMETADATA start type="Variable" name="FeedbackLink" format="" --><!--DXMETADATA end --></td>
+                    </span>
+                </td>
+            </tr>
+            <tr id="pagetoptable1row2">
+                <td align="left" colspan="2">
+                    <span id="pagetitle">
+                        <!--DXMETADATA start type="PageItemTitle" -->DialogOptions Class<!--DXMETADATA end--> <!--DXMETADATA start type="Phrase" name="Members" -->Members<!--DXMETADATA end -->
+                    </span>
+                </td>
+            </tr>
+            <tr id="pagetoptable1row3">
+                <td colspan="2">
+                    <a href="#seealsobookmark" onclick="javascript:openSectionById('seeAlsoSectionHeader');"><!--DXMETADATA start type="Phrase" name="SEE_ALSO" -->See Also<!--DXMETADATA end--></a>&nbsp;
+                    <!--DXMETADATA start type="Literal" condition="childitems:itemtype=field" value="<a href=""#FieldsBookmark"">$$Fields$$</a>&nbsp;" --><!--DXMETADATA end-->
+                    <!--DXMETADATA start type="Literal" condition="childitems:itemtype=property" value="<a href=""#PropertiesBookmark"">$$Properties$$</a>&nbsp;" --><a href="#PropertiesBookmark">Properties</a>&nbsp;<!--DXMETADATA end-->
+                    <!--DXMETADATA start type="Literal" condition="childitems:itemtype=method" value="<a href=""#MethodsBookmark"">$$Methods$$</a>&nbsp;" --><!--DXMETADATA end-->
+                    <!--DXMETADATA start type="Literal" condition="childitems:itemtype=event" value="<a href=""#EventsBookmark"">$$Events$$</a>" --><!--DXMETADATA end-->
+                </td>
+            </tr>
+        </table>
+        <table width="100%" id="pagetoptable2" cellspacing="0" cellpadding="0">
+            <tr>
+                <td>
+                    <span id="toggleExpandedAll">
+                        <img ID="toggleExpandedAllImage" class="toggleAll" src="dotnetimages/collapse.gif"/>
+                        <label id="collapseAllLabel" for="toggleExpandedAllImage" style="display: none;"><!--DXMETADATA start type="Phrase" name="COLLAPSE_ALL" -->Collapse All<!--DXMETADATA end--></label>
+                        <label id="expandAllLabel" for="toggleExpandedAllImage" style="display: none;"><!--DXMETADATA start type="Phrase" name="EXPAND_ALL" -->Expand All<!--DXMETADATA end--></label>
+                    </span>
+                    <span id="membersFilter" style="cursor:default;" onclick="showBox('dxmemberfiltermenu',event,document.getElementById('membersFilterImage'))" onmouseover='document.getElementById("membersFilterImage").src=document.getElementById("dropDownHoverImage").src;' onfocusin='document.getElementById("membersFilterImage").src=document.getElementById("dropDownHoverImage").src;' onmouseout='document.getElementById("membersFilterImage").src=document.getElementById("dropDownImage").src;' onfocusout='document.getElementById("membersFilterImage").src=document.getElementById("dropDownImage").src;'>
+                        <img id="membersFilterImage" src="dotnetimages/drpdown.gif"/>
+                        <label id="showAllMembersLabel" for="membersFilterImage" style="display: none;">
+                            <!--DXMETADATA start type="Phrase" name="MEMBERS_FILTER_SHOW_ALL" -->Members Options: Show All<!--DXMETADATA end -->
+                        </label>
+                        <label id="filteredMembersLabel" for="membersFilterImage" style="display: none;">
+                            <!--DXMETADATA start type="Phrase" name="MEMBERS_FILTER_FILTERED" -->Members Options: Filtered<!--DXMETADATA end -->
+                        </label>
+                    </span>
+                </td>
+            </tr>
+        </table>
+        <!--DXMETADATA start type="Breadcrumbs" scrap="_BREADCRUMBS" --><table width="100%" id="pagetopbreadcrumbs" cellspacing="0" cellpadding="0"><tr><td>
+<a href="SharpKit.jQuery.UI.V1_7_2.html">SharpKit.jQuery.UI.V1_7_2 Assembly</a>
+ > <a href="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI_namespace.html">SharpKit.jQuery.UI Namespace</a>
+ : DialogOptions Class</td></tr></table><!--DXMETADATA end -->
+        <div class="dxpopupbubble" id="dxmemberfiltermenu">
+            <input id="inheritedCheckbox" type="checkbox" name="membersFilter" onClick="setMembersFilter(this)" />
+            <label class="membersFilter" for="inheritedCheckbox">
+                <!--DXMETADATA start type="Phrase" name="MEMBERS_FILTER_INHERITED" -->Include Inherited Members<!--DXMETADATA end -->
+            </label>
+            <br />
+            <input id="protectedCheckbox" type="checkbox" name="membersFilter" onClick="setMembersFilter(this)" />
+            <label class="membersFilter" for="protectedCheckbox">
+                <!--DXMETADATA start type="Phrase" name="MEMBERS_FILTER_PROTECTED" -->Include Protected Members<!--DXMETADATA end -->
+            </label>
+            <br />
+        </div>
+    </div>
+
+    <div id="pagebody" valign="bottom">
+        <a name="topBookmark"></a>
+        <div id="mainbody">
+            <div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()">
+            </div>
+            <!--DXMETADATA start type="Scrap" name="_OVERVIEW_LINK" format="<p>%%scrap%%</p>"" --><p>The following tables list the members exposed by <a href="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions.html">DialogOptions</a>.</p><!--DXMETADATA end -->
+
+            <a name="ConstructorsBookmark"></a>
+            <!--DXMETADATA start type="FilteredItemList" scrap="MEMBER_LIST" namespace="constructor" source="Item" filter="scope=public" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=publicConstructors,caption=$$Public$$ $$Constructors$$%%%%filtereditemlist%%<a href="#topBookmark">Top</a></div>" --><h1 class="heading"><span class="expandcollapse" tabindex="0"><img id="publicConstructorsToggle" class="toggle" name="toggleSwitch" src="dotnetimages/collapse.gif"></img>Public Constructors</span></h1><div id="publicConstructorsSection" class="section" name="collapseableSection"><TABLE class="FilteredItemListTable"><tr><th>&nbsp;</th><th>Name</th><th>Description</th></tr>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Constructor" SRC="dotnetimages/PublicConstructor.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~_ctor.html">DialogOptions Constructor</A></TD><TD CLASS="MembersDescriptionCell"> &nbsp;</TD></TR>
+</TABLE><a href="#topBookmark">Top</a></div><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="MEMBER_LIST" namespace="constructor" source="Item" filter="scope=protected+friend" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=protectedConstructors,caption=$$Protected$$ $$Constructors$$%%%%filtereditemlist%%<a href="#topBookmark">Top</a></div>" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="MEMBER_LIST" namespace="constructor" source="Item" filter="scope=private" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=privateConstructors,caption=$$Private$$ $$Constructors$$%%%%filtereditemlist%%<a href="#topBookmark">Top</a></div>" --><!--DXMETADATA end -->
+
+            <a name="FieldsBookmark"></a>
+            <!--DXMETADATA start type="FilteredItemList" scrap="MEMBER_LIST" namespace="field" source="Item" filter="scope=public" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=publicFields,caption=$$Public$$ $$Fields$$%%%%filtereditemlist%%<a href="#topBookmark">Top</a></div>" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="MEMBER_LIST" namespace="field" source="Item" filter="scope=protected+friend" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=protectedFields,caption=$$Protected$$ $$Fields$$%%%%filtereditemlist%%<a href="#topBookmark">Top</a></div>" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="MEMBER_LIST" namespace="field" source="Item" filter="scope=private" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=privateFields,caption=$$Private$$ $$Fields$$%%%%filtereditemlist%%<a href="#topBookmark">Top</a></div>" --><!--DXMETADATA end -->
+
+            <a name="PropertiesBookmark"></a>
+            <!--DXMETADATA start type="FilteredItemList" scrap="MEMBER_LIST" namespace="property" source="Item" filter="scope=public" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=publicProperties,caption=$$Public$$ $$Properties$$%%%%filtereditemlist%%<a href="#topBookmark">Top</a></div>" --><h1 class="heading"><span class="expandcollapse" tabindex="0"><img id="publicPropertiesToggle" class="toggle" name="toggleSwitch" src="dotnetimages/collapse.gif"></img>Public Properties</span></h1><div id="publicPropertiesSection" class="section" name="collapseableSection"><TABLE class="FilteredItemListTable"><tr><th>&nbsp;</th><th>Name</th><th>Description</th></tr>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~autoOpen.html">autoOpen</A></TD><TD CLASS="MembersDescriptionCell">
+            When autoOpen is true the dialog will open automatically when dialog is called. If false it will stay hidden until .dialog("open") is called on it.
+            Default: true
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~beforeclose.html">beforeclose</A></TD><TD CLASS="MembersDescriptionCell">
+            This event is triggered when a dialog attempts to close. If the beforeclose event handler (callback function) returns false, the close will be prevented.
+            Default: null
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~bgiframe.html">bgiframe</A></TD><TD CLASS="MembersDescriptionCell">
+            When true, the bgiframe plugin will be used, to fix the issue in IE6 where select boxes show on top of other elements, regardless of zIndex. Requires including the bgiframe plugin. Future versions may not require a separate plugin.
+            Default: false
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~buttons.html">buttons</A></TD><TD CLASS="MembersDescriptionCell">
+            Specifies which buttons should be displayed on the dialog. The property key is the text of the button. The value is the callback function for when the button is clicked. The context of the callback is the dialog element; if you need access to the button, it is available as the target of the event object. 
+            Default: { }
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~close.html">close</A></TD><TD CLASS="MembersDescriptionCell">
+            This event is triggered when the dialog is closed.
+            Default: null
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~closeOnEscape.html">closeOnEscape</A></TD><TD CLASS="MembersDescriptionCell">
+            Specifies whether the dialog should close when it has focus and the user presses the esacpe (ESC) key.
+            Default: true
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~dialogClass.html">dialogClass</A></TD><TD CLASS="MembersDescriptionCell">
+            The specified class name(s) will be added to the dialog, for additional theming.
+            Default: ''
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~drag.html">drag</A></TD><TD CLASS="MembersDescriptionCell">
+            This event is triggered when the dialog is dragged.
+            Default: null
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~draggable.html">draggable</A></TD><TD CLASS="MembersDescriptionCell">
+            If set to true, the dialog will be draggable will be draggable by the titlebar.
+            Default: true
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~dragStart.html">dragStart</A></TD><TD CLASS="MembersDescriptionCell">
+            This event is triggered at the beginning of the dialog being dragged.
+            Default: null
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~dragStop.html">dragStop</A></TD><TD CLASS="MembersDescriptionCell">
+            This event is triggered after the dialog has been dragged.
+            Default: null
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~focus.html">focus</A></TD><TD CLASS="MembersDescriptionCell">
+            This event is triggered when the dialog gains focus.
+            Default: null
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~height.html">height</A></TD><TD CLASS="MembersDescriptionCell">
+            The height of the dialog, in pixels.
+            Default: 'auto'
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~hide.html">hide</A></TD><TD CLASS="MembersDescriptionCell">
+            The effect to be used when the dialog is closed.
+            Default: null
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~maxHeight.html">maxHeight</A></TD><TD CLASS="MembersDescriptionCell">
+            The maximum height to which the dialog can be resized, in pixels.
+            Default: false
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~maxWidth.html">maxWidth</A></TD><TD CLASS="MembersDescriptionCell">
+            The maximum width to which the dialog can be resized, in pixels.
+            Default: false
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~minHeight.html">minHeight</A></TD><TD CLASS="MembersDescriptionCell">
+            The minimum height to which the dialog can be resized, in pixels.
+            Default: 150
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~minWidth.html">minWidth</A></TD><TD CLASS="MembersDescriptionCell">
+            The minimum width to which the dialog can be resized, in pixels.
+            Default: 150
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~modal.html">modal</A></TD><TD CLASS="MembersDescriptionCell">
+            If set to true, the dialog will have modal behavior; other items on the page will be disabled (i.e. cannot be interacted with). Modal dialogs create an overlay below the dialog but above other page elements.
+            Default: false
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~open.html">open</A></TD><TD CLASS="MembersDescriptionCell">
+            This event is triggered when dialog is opened.
+            Default: null
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~position.html">position</A></TD><TD CLASS="MembersDescriptionCell">
+            Specifies where the dialog should be displayed. Possible values: 'center', 'left', 'right', 'top', 'bottom', or an array containing a coordinate pair (in pixel offset from top left of viewport) or the possible string values (e.g. ['right','top'] for top right corner).
+            Default: 'center'
+            Types: String, Array
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~resizable.html">resizable</A></TD><TD CLASS="MembersDescriptionCell">
+            If set to true, the dialog will be resizeable.
+            Default: true
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~resize.html">resize</A></TD><TD CLASS="MembersDescriptionCell">
+            This event is triggered when the dialog is resized.
+            Default: null
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~resizeStart.html">resizeStart</A></TD><TD CLASS="MembersDescriptionCell">
+            This event is triggered at the beginning of the dialog being resized.
+            Default: null
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~resizeStop.html">resizeStop</A></TD><TD CLASS="MembersDescriptionCell">
+            This event is triggered after the dialog has been resized.
+            Default: null
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~show.html">show</A></TD><TD CLASS="MembersDescriptionCell">
+            The effect to be used when the dialog is opened.
+            Default: null
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~stack.html">stack</A></TD><TD CLASS="MembersDescriptionCell">
+            Specifies whether the dialog will stack on top of other dialogs. This will cause the dialog to move to the front of other dialogs when it gains focus.
+            Default: true
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~title.html">title</A></TD><TD CLASS="MembersDescriptionCell">
+            Specifies the title of the dialog. The title can also be specified by the title attribute on the dialog source element.
+            Default: ''
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~width.html">width</A></TD><TD CLASS="MembersDescriptionCell">
+            The width of the dialog, in pixels.
+            Default: 300
+ &nbsp;</TD></TR>
+<TR><TD class="imageCell"><IMG align="left" alt="Public Property" SRC="dotnetimages/PublicProperty.gif"></TD><TD CLASS=MembersLinkCell><A HREF="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions~zIndex.html">zIndex</A></TD><TD CLASS="MembersDescriptionCell">
+            The starting z-index for the dialog.
+            Default: 1000
+ &nbsp;</TD></TR>
+</TABLE><a href="#topBookmark">Top</a></div><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="MEMBER_LIST" namespace="property" source="Item" filter="scope=protected+friend" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=protectedProperties,caption=$$Protected$$ $$Properties$$%%%%filtereditemlist%%<a href="#topBookmark">Top</a></div>" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="MEMBER_LIST" namespace="property" source="Item" filter="scope=private" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=privateProperties,caption=$$Private$$ $$Properties$$%%%%filtereditemlist%%<a href="#topBookmark">Top</a></div>" --><!--DXMETADATA end -->
+
+            <a name="MethodsBookmark"></a>
+            <!--DXMETADATA start type="FilteredItemList" scrap="MEMBER_LIST" namespace="method" source="Item" filter="scope=public" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=publicMethods,caption=$$Public$$ $$Methods$$%%%%filtereditemlist%%<a href="#topBookmark">Top</a></div>" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="MEMBER_LIST" namespace="method" source="Item" filter="scope=protected+friend" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=protectedMethods,caption=$$Protected$$ $$Methods$$%%%%filtereditemlist%%<a href="#topBookmark">Top</a></div>" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="MEMBER_LIST" namespace="method" source="Item" filter="scope=private" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=privateMethods,caption=$$Private$$ $$Methods$$%%%%filtereditemlist%%<a href="#topBookmark">Top</a></div>" --><!--DXMETADATA end -->
+
+            <a name="EventsBookmark"></a>
+            <!--DXMETADATA start type="FilteredItemList" scrap="MEMBER_LIST" namespace="event" source="Item" filter="scope=public" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=publicEvents,caption=$$Public$$ $$Events$$%%%%filtereditemlist%%<a href="#topBookmark">Top</a></div>" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="MEMBER_LIST" namespace="event" source="Item" filter="scope=protected+friend" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=protectedEvents,caption=$$Protected$$ $$Events$$%%%%filtereditemlist%%<a href="#topBookmark">Top</a></div>" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="MEMBER_LIST" namespace="event" source="Item" filter="scope=private" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=privateEvents,caption=$$Private$$ $$Events$$%%%%filtereditemlist%%<a href="#topBookmark">Top</a></div>" --><!--DXMETADATA end -->
+
+            <a name="OperatorsBookmark"></a>
+            <!--DXMETADATA start type="FilteredItemList" scrap="OPERATOR_LIST" namespace="operator" source="Item" filter="" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=publicOperators,caption=$$Public$$ $$Operators$$%%%%filtereditemlist%%<a href="#topBookmark">Top</a></div>" --><!--DXMETADATA end -->
+
+            <a name="seealsobookmark"></a>
+            <!--DXMETADATA start type="FilteredItemList" scrap="CATEGORIZED_LINKS" namespace="linkcategory" source="Item" filter="type=members" NoHeader="True" NoFooter="True" format="%%replaceinquotes:value=false%%%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=seealso,caption=""$$See_Also$$%%designlist:tagidentifier=##SEEALSO,itemtype=See Also%%""%%%%filtereditemlist%%</div>"--><h1 class="heading"><span class="expandcollapse" tabindex="0"><img id="seealsoToggle" class="toggle" name="toggleSwitch" src="dotnetimages/collapse.gif"></img>See Also</span></h1><div id="seealsoSection" class="section" name="collapseableSection"><h4 class="dxh4">Reference</h4><a href="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DialogOptions.html">DialogOptions Class</a>
+<br/><a href="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI_namespace.html">SharpKit.jQuery.UI Namespace</a>
+</p>
+</div><!--DXMETADATA end-->
+
+        </div>
+        <div id="pagefooter">
+            <!--DXMETADATA start type="Variable" name="CopyrightNotice" format="<p>&nbsp;</p><p>&nbsp;</p><hr size=1><p>%%variable%%</p>" --><!--DXMETADATA end -->
+        </div>
+    </div>
+    <!--DXMETADATA start type="Variable" name="NonScrollingPageFooter" format="<div id=nonscrollingpagefooter>%%variable%%</div>" --><!--DXMETADATA end -->
+</body>
+</html>
