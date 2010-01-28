@@ -1138,6 +1138,11 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
+<param name="Name" value="addAnimation Method" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouch~addAnimation.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
 <param name="Name" value="addBinding Method" >
 <param name="Local" value="SharpKit.ExtJS.V3_1_0~Ext.KeyMap~addBinding.html" >
 
@@ -1346,6 +1351,11 @@
 <LI><OBJECT type="text/sitemap">
 <param name="Name" value="addFill Method" >
 <param name="Local" value="SharpKit.ExtJS.V3_1_0~Ext.Toolbar~addFill.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="addGlossToIcon Field" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~addGlossToIcon.html" >
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
@@ -7132,6 +7142,11 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
+<param name="Name" value="backSelector Field" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~backSelector.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
 <param name="Name" value="BarChart Class" >
 <param name="Local" value="SharpKit.ExtJS.V3_1_0~Ext.chart.BarChart.html" >
 
@@ -11431,6 +11446,11 @@
 <LI><OBJECT type="text/sitemap">
 <param name="Name" value="cache Property" >
 <param name="Local" value="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.TabsOptions~cache.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="cacheGetRequests Field" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~cacheGetRequests.html" >
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
@@ -19087,6 +19107,11 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
+<param name="Name" value="cubeSelector Field" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~cubeSelector.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
 <param name="Name" value="Current Property (Configuration)" >
 <param name="Local" value="SharpKit.Web~SharpKit.Web.Server.Configuration~Current.html" >
 
@@ -24395,6 +24420,11 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
+<param name="Name" value="dissolveSelector Field" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~dissolveSelector.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
 <param name="Name" value="distance Property (DraggableOptions)" >
 <param name="Local" value="SharpKit.jQuery.UI.V1_7_2~SharpKit.jQuery.UI.DraggableOptions~distance.html" >
 
@@ -28607,6 +28637,11 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
+<param name="Name" value="fadeSelector Field" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~fadeSelector.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
 <param name="Name" value="fadeTo Method" >
 <param name="Local" value="SharpKit.jQuery.V1_3_2~SharpKit.jQuery.jQuery~fadeTo.html" >
 
@@ -30019,6 +30054,11 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
+<param name="Name" value="fixedViewport Field" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~fixedViewport.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
 <param name="Name" value="FixInputForIEBugs Method" >
 <param name="Local" value="SharpKit.Web~SharpKit.HtmlModel.HtmlDom~FixInputForIEBugs.html" >
 
@@ -30336,6 +30376,11 @@
 <LI><OBJECT type="text/sitemap">
 <param name="Name" value="flex Property (VBoxLayoutConfig)" >
 <param name="Local" value="SharpKit.ExtJS.V3_1_0~Ext.layout.VBoxLayoutConfig~flex.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="flipSelector Field" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~flipSelector.html" >
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
@@ -31331,6 +31376,11 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
+<param name="Name" value="formSelector Field" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~formSelector.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
 <param name="Name" value="formTarget Property (HtmlButton)" >
 <param name="Local" value="SharpKit.BrowserModel~SharpKit.HtmlModel.HtmlButton~formTarget.html" >
 
@@ -31503,8 +31553,18 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
-<param name="Name" value="fullscreen Field" >
+<param name="Name" value="fullscreen Field (HtmlWindowFeatures)" >
 <param name="Local" value="SharpKit.Web~SharpKit.HtmlModel.HtmlWindowFeatures~fullscreen.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="fullScreen Field (jQTouchSettings)" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~fullScreen.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="fullScreenClass Field" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~fullScreenClass.html" >
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
@@ -33255,6 +33315,11 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
+<param name="Name" value="getOrientation Method" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouch~getOrientation.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
 <param name="Name" value="getOuterSize Method" >
 <param name="Local" value="SharpKit.ExtJS.V3_1_0~Ext.BoxComponent~getOuterSize.html" >
 
@@ -34025,6 +34090,11 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
+<param name="Name" value="goBack Method" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouch~goBack.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
 <param name="Name" value="GoogleAnalyticsDomain Property" >
 <param name="Local" value="SharpKit.Web~SharpKit.Web.Server.Configuration~GoogleAnalyticsDomain.html" >
 
@@ -34032,6 +34102,11 @@
 <LI><OBJECT type="text/sitemap">
 <param name="Name" value="GoogleAnalyticsWebPropertyID Property" >
 <param name="Local" value="SharpKit.Web~SharpKit.Web.Server.Configuration~GoogleAnalyticsWebPropertyID.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="goTo Method" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouch~goTo.html" >
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
@@ -43351,6 +43426,11 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
+<param name="Name" value="icon Field (jQTouchSettings)" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~icon.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
 <param name="Name" value="icon Property (AsyncTreeNodeConfig)" >
 <param name="Local" value="SharpKit.ExtJS.V3_1_0~Ext.tree.AsyncTreeNodeConfig~icon.html" >
 
@@ -47574,6 +47654,62 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
+<param name="Name" value="jQTouch Class (SharpKit.jQTouch)" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouch.html" >
+
+</OBJECT> 
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Members" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouch_members.html" >
+
+</OBJECT> 
+
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Methods" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouch_methods.html" >
+
+</OBJECT> 
+
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Overview" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouch.html" >
+
+</OBJECT> 
+
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="jQTouch Method (jQTouch)" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouch~jQTouch.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="jQTouchSettings Class" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings.html" >
+
+</OBJECT> 
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Fields" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings_fields.html" >
+
+</OBJECT> 
+
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Members" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings_members.html" >
+
+</OBJECT> 
+
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Overview" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings.html" >
+
+</OBJECT> 
+
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="jQTouchSettings Constructor (jQTouchSettings)" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~_ctor.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
 <param name="Name" value="jQuery Class (SharpKit.jQuery)" >
 <param name="Local" value="SharpKit.jQuery.V1_3_2~SharpKit.jQuery.jQuery.html" >
 
@@ -51793,6 +51929,11 @@
 <LI><OBJECT type="text/sitemap">
 <param name="Name" value="majorUnit Property (TimeAxis)" >
 <param name="Local" value="SharpKit.ExtJS.V3_1_0~Ext.chart.TimeAxis~majorUnit.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="makeActive Method" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouch~makeActive.html" >
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
@@ -62048,6 +62189,11 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
+<param name="Name" value="popSelector Field" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~popSelector.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
 <param name="Name" value="PopStateEvent Class" >
 <param name="Local" value="SharpKit.BrowserModel~SharpKit.HtmlModel.PopStateEvent.html" >
 
@@ -62244,6 +62390,11 @@
 <LI><OBJECT type="text/sitemap">
 <param name="Name" value="preloadChildren Property (TreeLoaderConfig)" >
 <param name="Local" value="SharpKit.ExtJS.V3_1_0~Ext.tree.TreeLoaderConfig~preloadChildren.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="preloadImages Field" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~preloadImages.html" >
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
@@ -74314,6 +74465,46 @@
 </OBJECT> 
 
 </UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="SharpKit.jQTouch Namespace" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch_namespace.html" >
+
+</OBJECT> 
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Inheritance Hierarchy" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch_namespace_hierarchy.html" >
+
+</OBJECT> 
+
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Overview" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch_namespace.html" >
+
+</OBJECT> 
+
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="SharpKit.jQTouch.V1_b Assembly" >
+<param name="Local" value="SharpKit.jQTouch.V1_b.html" >
+
+</OBJECT> 
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Getting Started" >
+<param name="Local" value="SharpKit.jQTouch.V1_b_gettingstarted.html" >
+
+</OBJECT> 
+
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Introduction" >
+<param name="Local" value="SharpKit.jQTouch.V1_b_introduction.html" >
+
+</OBJECT> 
+
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Overview" >
+<param name="Local" value="SharpKit.jQTouch.V1_b.html" >
+
+</OBJECT> 
+
+</UL><LI><OBJECT type="text/sitemap">
 <param name="Name" value="SharpKit.jQuery Namespace" >
 <param name="Local" value="SharpKit.jQuery.V1_3_2~SharpKit.jQuery_namespace.html" >
 
@@ -75208,6 +75399,11 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
+<param name="Name" value="slideInSelector Field" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~slideInSelector.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
 <param name="Name" value="slideOut Method (BorderLayout.Region)" >
 <param name="Local" value="SharpKit.ExtJS.V3_1_0~Ext.layout.BorderLayout+Region~slideOut.html" >
 
@@ -75411,6 +75607,11 @@
 <LI><OBJECT type="text/sitemap">
 <param name="Name" value="slideUp Method" >
 <param name="Local" value="SharpKit.jQuery.V1_3_2~SharpKit.jQuery.jQuery~slideUp.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="slideupSelector Field" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~slideupSelector.html" >
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
@@ -76965,6 +77166,11 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
+<param name="Name" value="startupScreen Field" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~startupScreen.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
 <param name="Name" value="startValue Property" >
 <param name="Local" value="SharpKit.ExtJS.V3_1_0~Ext.form.Field~startValue.html" >
 
@@ -78153,7 +78359,12 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
-<param name="Name" value="statusbar Property" >
+<param name="Name" value="statusBar Field (jQTouchSettings)" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~statusBar.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="statusbar Property (HtmlWindow)" >
 <param name="Local" value="SharpKit.BrowserModel~SharpKit.HtmlModel.HtmlWindow~statusbar.html" >
 
 </OBJECT> 
@@ -79434,6 +79645,16 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
+<param name="Name" value="submitForm Method" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouch~submitForm.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="submitSelector Field" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~submitSelector.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
 <param name="Name" value="submitValue Property (CheckboxConfig)" >
 <param name="Local" value="SharpKit.ExtJS.V3_1_0~Ext.form.CheckboxConfig~submitValue.html" >
 
@@ -80628,8 +80849,18 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
+<param name="Name" value="swapSelector Field" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~swapSelector.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
 <param name="Name" value="swapStyleSheet Method" >
 <param name="Local" value="SharpKit.ExtJS.V3_1_0~Ext.util.CSS~swapStyleSheet.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="swipe Method" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouch~swipe.html" >
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
@@ -81536,6 +81767,11 @@
 <LI><OBJECT type="text/sitemap">
 <param name="Name" value="tan Method" >
 <param name="Local" value="SharpKit.BrowserModel~SharpKit.JavaScriptModel.JsMath~tan.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="tap Method" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouch~tap.html" >
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
@@ -87249,6 +87485,11 @@
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
+<param name="Name" value="unselect Method (jQTouch)" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouch~unselect.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
 <param name="Name" value="unselect Method (MultiSelectionModel)" >
 <param name="Local" value="SharpKit.ExtJS.V3_1_0~Ext.tree.MultiSelectionModel~unselect.html" >
 
@@ -87986,6 +88227,11 @@
 <LI><OBJECT type="text/sitemap">
 <param name="Name" value="USE_NATIVE_JSON Property" >
 <param name="Local" value="SharpKit.ExtJS.V3_1_0~Ext.ExtClass~USE_NATIVE_JSON.html" >
+
+</OBJECT> 
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="useAnimations Field" >
+<param name="Local" value="SharpKit.jQTouch.V1_b~SharpKit.jQTouch.jQTouchSettings~useAnimations.html" >
 
 </OBJECT> 
 <LI><OBJECT type="text/sitemap">
